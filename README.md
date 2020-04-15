@@ -4,8 +4,6 @@
 
 gdbundle is short for GDB bundle and is a plugin manager for GDB and LLDB.
 
-[![asciicast](https://asciinema.org/a/E674Xe3uAavNGWu6WBZCfOAEI.svg)](https://asciinema.org/a/E674Xe3uAavNGWu6WBZCfOAEI)
-
 For detailed info about the origin story of gdbundle, read
 [gdbundle - GDB's Missing Plugin Manager](https://interrupt.memfault.com/blog/gdbundle-plugin-manager)
 
