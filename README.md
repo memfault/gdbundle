@@ -4,7 +4,7 @@
 
 gdbundle is short for GDB bundle and is a plugin manager for GDB and LLDB.
 
-For detailed info about the origin story of gdbundle, read
+For detailed info about the origin story of gdbundle, read the announcement on Interrupt: 
 [gdbundle - GDB's Missing Plugin Manager](https://interrupt.memfault.com/blog/gdbundle-plugin-manager)
 
 ## Benefits
@@ -34,6 +34,22 @@ For now, a list is kept here as well:
 - [voltron](https://github.com/memfault/gdbundle-voltron)
 
 ## Quickstart
+
+> NOTE: The Python compiled with GDB should be the same major version as 
+> the Python in the local virtual, Conda, or local environment that 
+> you are installing gdbundle and plugins into. 
+
+To check both versions of Python, you can run the following:
+
+```
+$ gdb
+(gdb) pi
+>>> import sys; sys.version
+'3.6.9 (default, Nov  7 2019, 10:44:02) \n[GCC 8.3.0]'
+
+$ python --version
+Python 3.6.9
+```
 
 ### Install gdbundle
 
