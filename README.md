@@ -28,7 +28,7 @@ Published ones can be found on [PyPi](https://pypi.org/search/?q=gdbundle)
 
 For now, a list is kept here as well:
 
-- [example](https://github.com/memfault/gdbundle-)
+- [example](https://github.com/memfault/gdbundle-example)
 - [gdb-dashboard](https://github.com/memfault/gdbundle-gdb-dashboard)
 - [PyCortexMDebug](https://github.com/memfault/gdbundle-PyCortexMDebug)
 - [voltron](https://github.com/memfault/gdbundle-voltron)
