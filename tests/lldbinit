@@ -1,0 +1,5 @@
+# Copy-Paste the sample_lldbinit.py file somewhere
+# $ mv gdbundle/sample_lldbinit.py ~/lldbinit.py
+
+# NOTE: The filename must be a valid Python module name (no - or .)
+command script import 'tests/lldbinit.py'
