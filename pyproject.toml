@@ -1,8 +1,10 @@
 [tool.poetry]
 name = "gdbundle"
-version = "0.0.2"
+version = "0.0.3"
 description = "Plugin Manager for GDB and LLDB"
 authors = ["Tyler Hoffman <tyler@memfault.com>"]
+homepage = "https://github.com/memfault/gdbundle"
+repository = "https://github.com/memfault/gdbundle"
 readme = "README.md"
 classifiers = [
     "Development Status :: 2 - Pre-Alpha",
