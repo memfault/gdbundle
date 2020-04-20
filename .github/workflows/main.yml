@@ -1,0 +1,20 @@
+name: gdbundle CI
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v1
+      - name: Docker build
+        run: docker build --rm . -t gdbundle-test
+      - name: Docker run tests
+        run: docker run -i --rm "$(docker images -q gdbundle-test)" /app/tests/run_tests.sh

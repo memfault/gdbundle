@@ -4,3 +4,4 @@ set -euo pipefail
 
 cd app
 tox
+du -sh .
