@@ -103,9 +103,11 @@ def load_commands():
     """
     Load the GDB commands for gdbundle
     """
-    if get_debugger() == 'gdb':
+    debugger = get_debugger()
+    if debugger == 'gdb':
         from gdbundle import commands_gdb
-    pass
+    elif debugger == 'lldb':
+        from gdbundle import commands_lldb
 
 
 def init(include=None, exclude=None):
